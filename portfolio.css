@@ -1,0 +1,185 @@
+body {
+  font-family: monospace;
+  background-color: rgb(255, 232, 221);
+}
+
+.headerContainer {
+ height: 200px;
+ padding-left: 70px;
+ padding-top: 70px;
+}
+
+.iconContainer {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  padding-top: 70px;
+}
+
+.linkedinIcon {
+  height: 60px;
+  width: auto;
+}
+
+:hover.linkedinIcon {
+  opacity: .5;
+}
+
+.githubIcon {
+  height: 60px;
+  width: auto;
+}
+
+:hover.githubIcon {
+  opacity: .5;
+}
+
+.profilePic {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  height: auto;
+  width: 80px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 4px;
+  margin-top: 70px;
+}
+
+.name {
+  font-size: 60px;
+  text-align: left;
+  margin-left: 120px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.bio {
+  font-size: 28px;
+  text-align: left;
+  margin-top: 30px;
+  text-align: left;
+  font-family: 'Gill Sans';
+}
+
+.lineBreak {
+  margin-top: 30px;
+  border-bottom: solid 4px;
+  margin-left: 70px;
+  margin-right: 70px
+}
+
+.projectContainer {
+  height: 348px;
+  padding: 60px;
+  margin: 100px;
+  margin-right: 70px;
+  margin-left: -10px;
+  border-style: solid;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-width: 4px;
+  border-left: none;
+  background-color: white;
+}
+
+.branchesProjectContainer {
+  height: 348px;
+  padding: 60px;
+  margin: 100px;
+  margin-right: -10px;
+  margin-left: 70px;
+  border-style: solid;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-width: 4px;
+  border-right: none;
+  background-color: white;
+}
+
+.projectDetailsContainer {
+  position: absolute;
+  left: 70%;
+  width: 400px;
+  margin-left: -200px;
+  text-align: left;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.branchesProjectDetailsContainer {
+  position: absolute;
+  right: 70%;
+  width: 400px;
+  margin-right: -200px;
+  text-align: left;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.header {
+  font-size: 40px;
+  height: 50px;
+  font-weight: 700px;
+  padding-bottom: 8px;
+}
+
+.screenshot {
+  position: absolute;
+  left: 30%;
+  margin-left: -300px;
+  width: 600px;
+  height: auto;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8px;
+}
+
+.branchesScreenshot {
+  position: absolute;
+  right: 30%;
+  margin-right: -300px;
+  width: 600px;
+  height: auto;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8px;
+}
+
+.techLogo {
+  width: 40px;
+  height: auto;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 8px;
+  align-items: left;
+  margin-bottom: 24px;
+}
+
+.details {
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Gill Sans';
+  padding-bottom: 40px;
+} 
+
+.link {
+  text-align: center;
+  font-size: 18px;
+  width: 200px;
+  height: auto;
+  border-width: 4px;
+  border: solid;
+  border-radius: 8px;
+  border-width: 4px;
+  padding: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+:hover.link {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
