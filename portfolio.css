@@ -3,16 +3,7 @@ body {
   background-color: rgb(255, 232, 221);
 }
 
-.headerContainer {
- height: 200px;
- padding-left: 70px;
- padding-top: 70px;
-}
-
 .iconContainer {
-  position: absolute;
-  right: 100px;
-  top: 30px;
   padding-top: 70px;
 }
 
@@ -35,24 +26,18 @@ body {
 }
 
 .profilePic {
-  position: absolute;
-  top: 20px;
-  left: 80px;
-  height: auto;
+  height: 80px;
   width: 80px;
   border-radius: 8px;
   border-style: solid;
   border-width: 4px;
-  margin-top: 70px;
 }
 
 .name {
   font-size: 60px;
   text-align: left;
-  margin-left: 120px;
   font-weight: bold;
-  margin-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 70px;
 }
 
 .bio {
@@ -66,12 +51,9 @@ body {
 .lineBreak {
   margin-top: 30px;
   border-bottom: solid 4px;
-  margin-left: 70px;
-  margin-right: 70px
 }
 
 .projectContainer {
-  height: 348px;
   padding: 60px;
   margin: 100px;
   margin-right: 70px;
@@ -85,7 +67,6 @@ body {
 }
 
 .branchesProjectContainer {
-  height: 348px;
   padding: 60px;
   margin: 100px;
   margin-right: -10px;
@@ -99,52 +80,41 @@ body {
 }
 
 .projectDetailsContainer {
-  position: absolute;
-  left: 70%;
-  width: 400px;
-  margin-left: -200px;
   text-align: left;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 60px;
 }
 
 .branchesProjectDetailsContainer {
-  position: absolute;
-  right: 70%;
-  width: 400px;
-  margin-right: -200px;
   text-align: left;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-right: 60px;
 }
 
 .header {
   font-size: 40px;
-  height: 50px;
   font-weight: 700px;
   padding-bottom: 8px;
 }
 
 .screenshot {
-  position: absolute;
-  left: 30%;
-  margin-left: -300px;
   width: 600px;
-  height: auto;
+  height: 100%;
+  padding: 0px;  
   border-style: solid;
   border-width: 4px;
   border-radius: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .branchesScreenshot {
-  position: absolute;
-  right: 30%;
-  margin-right: -300px;
   width: 600px;
-  height: auto;
+  height: 100%;
+  padding: 0px;  
   border-style: solid;
   border-width: 4px;
   border-radius: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .techLogo {
