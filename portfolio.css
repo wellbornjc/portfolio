@@ -53,7 +53,19 @@ body {
   border-bottom: solid 4px;
 }
 
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .projectContainer {
+  opacity: 0;
   padding: 60px;
   margin: 100px;
   margin-right: 70px;
@@ -64,9 +76,24 @@ body {
   border-width: 4px;
   border-left: none;
   background-color: white;
+  animation: slideFromLeft .5s ease-in forwards;
+  animation-timeline: view();
+  animation-range: entry 50%;
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .branchesProjectContainer {
+  opacity: 0;
   padding: 60px;
   margin: 100px;
   margin-right: -10px;
@@ -77,6 +104,9 @@ body {
   border-width: 4px;
   border-right: none;
   background-color: white;
+  animation: slideFromRight .5s ease-in forwards;
+  animation-timeline: view();
+  animation-range: entry 50%;
 }
 
 .projectDetailsContainer {
