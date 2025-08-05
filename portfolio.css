@@ -1,6 +1,7 @@
 body {
   font-family: monospace;
   background-color: rgb(255, 232, 221);
+  width: 100%;
 }
 
 .iconContainer {
@@ -53,6 +54,17 @@ body {
   border-bottom: solid 4px;
 }
 
+@-webkit-keyframes slideFromLeft {
+  from {
+    -webkit-transform: translateX(-50%);
+    -webkit-opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+    -webkit-opacity: 1;
+  }
+}
+
 @keyframes slideFromLeft {
   from {
     transform: translateX(-50%);
@@ -76,9 +88,23 @@ body {
   border-width: 4px;
   border-left: none;
   background-color: white;
+  -webkit-animation: slideFromLeft .5s ease-in forwards;
+  -webkit-animation-timeline: view();
+  -webkit-animation-range: entry 50%;
   animation: slideFromLeft .5s ease-in forwards;
   animation-timeline: view();
   animation-range: entry 50%;
+}
+
+@-webkit-keyframes slideFromRight {
+  from {
+    -webkit-transform: translateX(50%);
+    -webkit-opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+    -webkit-opacity: 1;
+  }
 }
 
 @keyframes slideFromRight {
@@ -104,6 +130,9 @@ body {
   border-width: 4px;
   border-right: none;
   background-color: white;
+  -webkit-animation: slideFromRight .5s ease-in forwards;
+  -webkit-animation-timeline: view();
+  -webkit-animation-range: entry 50%;
   animation: slideFromRight .5s ease-in forwards;
   animation-timeline: view();
   animation-range: entry 50%;
