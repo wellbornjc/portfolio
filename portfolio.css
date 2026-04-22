@@ -5,11 +5,11 @@ body {
 }
 
 .iconContainer {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .linkedinIcon {
-  height: 60px;
+  height: 40px;
   width: auto;
 }
 
@@ -17,8 +17,17 @@ body {
   opacity: .5;
 }
 
+.itchIcon {
+  height: 40px;
+  width: auto;
+}
+
+:hover.itchIcon {
+  opacity: .5;
+}
+
 .githubIcon {
-  height: 60px;
+  height: 40px;
   width: auto;
 }
 
@@ -27,8 +36,8 @@ body {
 }
 
 .profilePic {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   border-radius: 8px;
   border-style: solid;
   border-width: 4px;
@@ -56,7 +65,7 @@ body {
 
 @-webkit-keyframes slideFromLeft {
   from {
-    -webkit-transform: translateX(-50%);
+    -webkit-transform: translateX(0);
     -webkit-opacity: 0;
   }
   to {
@@ -67,7 +76,7 @@ body {
 
 @keyframes slideFromLeft {
   from {
-    transform: translateX(-50%);
+    transform: translateX(0);
     opacity: 0;
   }
   to {
@@ -98,7 +107,7 @@ body {
 
 @-webkit-keyframes slideFromRight {
   from {
-    -webkit-transform: translateX(50%);
+    -webkit-transform: translateX(0);
     -webkit-opacity: 0;
   }
   to {
@@ -109,7 +118,7 @@ body {
 
 @keyframes slideFromRight {
   from {
-    transform: translateX(50%);
+    transform: translateX(0);
     opacity: 0;
   }
   to {
@@ -118,7 +127,7 @@ body {
   }
 }
 
-.branchesProjectContainer {
+.sorceryScrambleProjectContainer {
   opacity: 0;
   padding: 60px;
   margin: 100px;
@@ -143,7 +152,7 @@ body {
   padding-left: 60px;
 }
 
-.branchesProjectDetailsContainer {
+.projectDetailsContainer {
   text-align: left;
   padding-right: 60px;
 }
@@ -155,7 +164,7 @@ body {
 }
 
 .screenshot {
-  width: 600px;
+  width: 300px;
   height: 100%;
   padding: 0px;  
   border-style: solid;
@@ -184,6 +193,7 @@ body {
   border-radius: 8px;
   align-items: left;
   margin-bottom: 24px;
+  background-color: white;
 }
 
 .details {
